@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func setBlue(_ sender: UIButton) {
+    view.backgroundColor = .blue}
+    
+    @IBAction func setPurple(_ sender: UIButton) {view.backgroundColor = .purple
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func setRed(_ sender: UIButton) {
+    view.backgroundColor = .red}
+    @IBAction func setPink(_ sender: UIButton) {
+    view.backgroundColor = .red}
+    @IBAction func setYellow(_ sender: UIButton) {view.backgroundColor = .yellow
     }
-
-
+    @IBAction func setOrange(_ sender: UIButton) {view.backgroundColor = .orange
+    }
+    @IBAction func setLightBlue(_ sender: UIButton) {view.backgroundColor = .blue
+    }
+    @IBAction func setWhite(_ sender: UIButton) {
+    view.backgroundColor = .white}
 }
 
